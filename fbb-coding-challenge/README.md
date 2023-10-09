@@ -1,46 +1,55 @@
-# Getting Started with Create React App
+# FullBeauty Brands
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Hello to the Team at FBB. First of all thank you so much for the change to interview with you all. Here is my project! As I was working on and off on the weekend I have some questions that were not answered until today. Regarless I changed some stuff today but I kept some of my assumtions, I hope that is okay with every one.
 
-In the project directory, you can run:
+Just a couple of things. At the end of the day I started this project simulating a shopping app so that is what I am going with how that is not too much trouble. I belive a simple funtion that takes an array does not show you I am a full stack engineer. But there are improvements I would've done given the time. Ill discuss them below.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Table of Contents
+- [How To Install](#how-to-install)
+- [Improvements](#improvements)
+- [Info](#info)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+---
+## How To Install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This is a normal react app, so I will just leave the stuff you should be familiar with.
+```
+git clone https://github.com/Adrianbarros/fullbeauty-project.git
 
-### `npm run build`
+cd fbb-coding-challenge
+npm install 
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This will get the App running and on http://localhost:3000/ will be the calculator running.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Here is a look!
+![](src/Media/screenshot.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Improvements
+Here are a couple of stuff I would improve on given the time.
 
-### `npm run eject`
+1. Adding memory
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    - I understand having a state maneging everything is not the best or ideal. But given the limited time it was the fastest solution I thought about. I would've added redux or even a json to act as a temporary DB for the project. But I did my best with the time
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Styling
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    - I know it does not look the best but style was sacrificed
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+3. Routing
 
-## Learn More
+    - ofc without memory chnaging paging was going to be hard to I opted for conditional rendering
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Info
+
+Thank you for checking out my project!
+
+Adrian Barros
+adriansbarros1@gmail.com
+https://www.linkedin.com/in/adrian-s-barros/
