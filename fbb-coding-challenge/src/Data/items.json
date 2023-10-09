@@ -1,0 +1,26 @@
+{
+    "items": [
+        {
+            "name": "A",
+            "price": 60,
+            "quantity": 100,
+            "discount": "Buy 2 for 100"
+        },
+        {
+            "name": "B",
+            "price": 70,
+            "quantity": 100,
+            "discount": "Buy 2 get 1 free"
+        },
+        {
+            "name": "C",
+            "price": 10,
+            "quantity": 10
+        },
+        {
+            "name": "D",
+            "price": 20,
+            "quantity": 10
+        }
+    ]
+}

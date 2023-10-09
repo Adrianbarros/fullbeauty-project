@@ -1,0 +1,131 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid #000 1px;
+    width: 30rem;
+    height: 15rem;
+    padding-bottom: 1rem;
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    box-shadow: rgba(0, 0, 0, 1) 0px 1px 4px;
+}
+
+
+@media (max-width: 768px) {
+    .header {
+        height: 3rem;
+        width: 100%;
+    }
+}
+
+.header-logo {
+    width: 100%;
+}
+
+.shopping {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.button {
+    font-size: 14px;
+    border-radius: 500px;
+
+}
+
+.item-card {
+    display: flex;
+    flex-direction: column;
+    height: 15rem;
+    width: 30rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    box-shadow: rgba(0, 0, 0, 1) 0px 1px 4px;
+
+}
+
+.item-name {
+    font-size: 3rem;
+}
+
+.steps {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    background-color: #ababab;
+    position: sticky;
+    top: 0;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    align-items: center;
+}
+
+.logo {
+    height: 2rem;
+    width: 2rem;
+}
+
+.label {
+    font-size: 2rem;
+}
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+    height: 10px;
+    width: 300px;
+    background-color: #f6f6f6;
+    box-shadow: 0 0 0 2px #355094;
+    border: 1px solid transparent;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.userInfo {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-around;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    height: 15rem;
+    border: 1rem;
+    border: solid #000 1px;
+    padding-left: 5rem;
+    padding-top: 2rem;
+}
